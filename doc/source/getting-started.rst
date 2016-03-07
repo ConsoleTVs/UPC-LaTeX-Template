@@ -44,11 +44,22 @@ for example, a document with the following data:
      - Roger Solans
      - Aleix Gil
     ---
-    
+
 This will create a simple front page for your document, and clear the page after it.
 
 At the same time, the page will not contain any number and will not be counted towards
 page numering.
+
+**NOTE** You can create another file called meta.yaml and place the yaml data there and then call it when converting:
+::
+    pandoc test.md meta.yaml -o test.pdf
+
+**WARNING** Pandoc YAML metadata is only available in markdown (.md), if you use other markups such as **.rst** you'll need to provide
+the information in the command line
+
+Example:
+::
+    pandoc test.rst -o test.pdf -V title:'My Project Title' -V subtitle:'My Custom Subtitle' -V toc:true -V autodate:true
 
 Creating a Table Of Contents
 ----------------------------
