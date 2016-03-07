@@ -119,7 +119,7 @@ Other LaTeX Variables
 
 - **geometry**
 
- option for geometry package, e.g. margin=1in; may be repeated for multiple options
+  option for geometry package, e.g. margin=1in; may be repeated for multiple options
 
 
 - **margin-left, margin-right, margin-top, margin-bottom**
