@@ -33,7 +33,7 @@ Creating the front page
 
 We provide a simple yet powerful way to create the front page for your documents.
 
-To do such, you just need to add pandoc's YAML meta data on the document's heading
+To do such, you just need to add pandoc's YAML meta data on the document's heading (before any other text)
 for example, a document with the following data:
 ::
     ---
