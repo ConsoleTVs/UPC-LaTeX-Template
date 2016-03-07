@@ -19,8 +19,14 @@ Creating a PDF
 To create a PDF, simple type the following in your terminal
 ::
     pandoc test.md -o test.pdf
+
+This command will use the template and create a PDF called test.pdf based on the test.md file (Markdown)
+
+Or if you're using rst:
+::
+    pandoc test.rst -o test.pdf
     
-This command will use the template and create a PDF called test.pdf based on the test.md file
+This command will use the template and create a PDF called test.pdf based on the test.rst file (reStructuredText)
 
 Creating the front page
 -----------------------
