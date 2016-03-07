@@ -24,6 +24,8 @@ Downloading
 -----------
 To install our template you'll need to download the files first:
 
+Version: 1.4
+
 Download_
 
 .. _download: https://www.dropbox.com/s/3kqk92ijs4e2mzc/UPC.tar.gz?dl=1
