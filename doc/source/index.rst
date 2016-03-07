@@ -12,6 +12,12 @@ This includes, everything you need to handle during your career.
 
 We use Pandoc to handle the conversion between markdown or restructuredText into PDF
 
+Example
+-------
+
+An example of the template may be found here_
+
+.. _here: https://www.dropbox.com/s/fkqgoz7hismpo0t/UPC.pdf?dl=1
    
 What is LaTeX?
 --------------
