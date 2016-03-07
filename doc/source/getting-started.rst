@@ -97,75 +97,99 @@ You can handle the includes in the following way:
 Other LaTeX Variables
 ---------------------
 
-**papersize**
-paper size, e.g. letter, A4
+- **papersize**
 
-**fontsize**
-font size for body text (e.g. 10pt, 12pt)
+  paper size, e.g. letter, A4
+
+- **fontsize**
+
+  font size for body text (e.g. 10pt, 12pt)
 
 
-**documentclass**
-document class, e.g. article, report, book, memoir
+- **documentclass**
 
-**classoption**
-option for document class, e.g. oneside; may be repeated for multiple options
+  document class, e.g. article, report, book, memoir
 
-**geometry**
-option for geometry package, e.g. margin=1in; may be repeated for multiple options
+- **classoption**
 
-**margin-left, margin-right, margin-top, margin-bottom**
-sets margins, if geometry is not used (otherwise geometry overrides these)
+  option for document class, e.g. oneside; may be repeated for multiple options
 
-**linestretch**
-adjusts line spacing using the setspace package, e.g. 1.25, 1.5
+- **geometry**
 
-**fontfamily**
-font package for use with pdflatex: TeX Live includes many options, documented in the LaTeX Font Catalogue. The default is Latin Modern.
+ option for geometry package, e.g. margin=1in; may be repeated for multiple options
 
-**fontfamilyoptions**
-options for package used as fontfamily: e.g. osf,sc with fontfamily set to mathpazo provides Palatino with old-style figures and true small caps; may be repeated for multiple options
+- **margin-left, margin-right, margin-top, margin-bottom**
 
-**mainfont, sansfont, monofont, mathfont, CJKmainfont**
-font families for use with xelatex or lualatex: take the name of any system font, using the fontspec package. Note that if CJKmainfont is used, the xecjk package must be available.
+  sets margins, if geometry is not used (otherwise geometry overrides these)
 
-**mainfontoptions, sansfontoptions, monofontoptions, mathfontoptions, CJKoptions**
-options to use with mainfont, sansfont, monofont, mathfont, CJKmainfont in xelatex and lualatex. Allow for any choices available through fontspec, such as the OpenType features Numbers=OldStyle,Numbers=Proportional. May be repeated for multiple options.
+- **linestretch**
+  
+  adjusts line spacing using the setspace package, e.g. 1.25, 1.5
 
-**fontenc**
-allows font encoding to be specified through fontenc package (with pdflatex); default is T1 (see guide to LaTeX font encodings)
+- **fontfamily**
 
-**colorlinks**
-add color to link text; automatically enabled if any of linkcolor, citecolor, urlcolor, or toccolor are set
+  font package for use with pdflatex: TeX Live includes many options, documented in the LaTeX Font Catalogue. The default is Latin Modern.
 
-**linkcolor, citecolor, urlcolor, toccolor**
-color for internal links, citation links, external links, and links in table of contents: uses any of the predefined LaTeX colors
+- **fontfamilyoptions**
+  
+  options for package used as fontfamily: e.g. osf,sc with fontfamily set to mathpazo provides Palatino with old-style figures and true small caps; may be repeated for multiple options
 
-**links-as-notes**
-causes links to be printed as footnotes
+- **mainfont, sansfont, monofont, mathfont, CJKmainfont**
+  
+  font families for use with xelatex or lualatex: take the name of any system font, using the fontspec package. Note that if CJKmainfont is used, the xecjk package must be available.
 
-**indent**
-uses document class settings for indentation (the default LaTeX template otherwise removes indentation and adds space between paragraphs)
+- **mainfontoptions, sansfontoptions, monofontoptions, mathfontoptions, CJKoptions**
 
-**subparagraph**
-disables default behavior of LaTeX template that redefines (sub)paragraphs as sections, changing the appearance of nested headings in some classes
+  options to use with mainfont, sansfont, monofont, mathfont, CJKmainfont in xelatex and lualatex. Allow for any choices available through fontspec, such as the OpenType features Numbers=OldStyle,Numbers=Proportional. May be repeated for multiple options.
 
-**thanks**
-specifies contents of acknowledgments footnote after document title.
+- **fontenc**
 
-**toc**
-include table of contents (can also be set using --toc/--table-of-contents)
+  allows font encoding to be specified through fontenc package (with pdflatex); default is T1 (see guide to LaTeX font encodings)
 
-**toc-depth**
-level of section to include in table of contents
+- **colorlinks**
+  
+  add color to link text; automatically enabled if any of linkcolor, citecolor, urlcolor, or toccolor are set
 
-**lof, lot**
-include list of figures, list of tables
+- **linkcolor, citecolor, urlcolor, toccolor**
 
-**bibliography**
-bibliography to use for resolving references
+  color for internal links, citation links, external links, and links in table of contents: uses any of the predefined LaTeX colors
 
-**biblio-style**
-bibliography style, when used with --natbib and --biblatex.
+- **links-as-notes**
+  
+  causes links to be printed as footnotes
 
-**biblatexoptions**
-list of options for biblatex.
+- **indent**
+
+  uses document class settings for indentation (the default LaTeX template otherwise removes indentation and adds space between paragraphs)
+
+- **subparagraph**
+
+  disables default behavior of LaTeX template that redefines (sub)paragraphs as sections, changing the appearance of nested headings in some classes
+
+- **thanks**
+
+  specifies contents of acknowledgments footnote after document title.
+
+- **toc**
+  
+  include table of contents (can also be set using --toc/--table-of-contents)
+
+- **toc-depth**
+
+  level of section to include in table of contents
+
+- **lof, lot**
+
+  include list of figures, list of tables
+
+- **bibliography**
+
+  bibliography to use for resolving references
+
+- **biblio-style**
+
+  bibliography style, when used with --natbib and --biblatex.
+
+- **biblatexoptions**
+
+  list of options for biblatex.
