@@ -97,7 +97,7 @@ You can handle the includes in the following way:
 Other LaTeX Variables
 ---------------------
 
-- **papersize**
+**papersize**
 
   paper size, e.g. letter, A4
 
