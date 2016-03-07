@@ -32,4 +32,5 @@ Pandoc make use of LaTeX templates to design your pdf, so in fact our template i
    Introduction <self>
    installation
    getting-started
+   maths
    license
