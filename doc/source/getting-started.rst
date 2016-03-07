@@ -61,6 +61,28 @@ Example:
 ::
     pandoc test.rst -o test.pdf -V title:'My Project Title' -V subtitle:'My Custom Subtitle' -V toc:true -V autodate:true
 
+Front Page Logo
+---------------
+
+To se the front page logo you can use the following meta data:
+::
+    logo: true
+    
+To define a custom logo simply add the image to the images folder in your data directory (in my example):
+::
+    /home/erik/.pandoc/images
+
+Add the images to that path and then you can get them the following way (example image: test.png in my images folder on my data dir):
+::
+    logo-image: test
+    logo-height: 2
+    logo-width: 2
+    
+The image height / width is set in **cm**
+
+The image extension (.png) is ommited, you can google the supported image types for LaTeX)
+
+
 Creating a Table Of Contents
 ----------------------------
 
@@ -75,6 +97,7 @@ You can optionaly choose if you would like to change the default title, by defau
 You can optionaly choose if you would like them to have a number.
 The toc-depth specifies the level of section to include in table of contents
 
+    
 Additional Meta Data
 --------------------
 
