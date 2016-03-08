@@ -17,10 +17,6 @@ You can create Mathematical formulas and operations using Pandoc, to do such sim
 You'll need to phrase all the mathematical formulas leaving a blank space on the left before the first $ and
 a blank space on the right in the last $
 
-This will be translated into a mathematical formula once the conversation has been done, like this:
-
-:math:`(a + b)`.
-
 You can of course, use signs and other variables, to do such, simply take a look at this_ PDF, it contain a list of usefull
 signs that can be used inside the $ $
 
