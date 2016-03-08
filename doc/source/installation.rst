@@ -8,9 +8,21 @@ Prerequisites
 -------------
 
 You'll need to have pandoc installed (linux - Debian / Ubuntu):
+
+Version 1.12: **NOT RECOMMENDED - OUTDATED VERSION**
 ::
     sudo apt-get install pandoc
     
+To use the full features of pandoc, please install the version 1.16, not the 1.12 that comes with ubuntu
+
+Version 1.6: **RECOMMENDED** Download_
+
+.._Download: https://github.com/jgm/pandoc/releases/download/1.16.0.2/pandoc-1.16.0.2-1-amd64.deb
+
+Download for Windows_
+
+.. _Windows: https://github.com/jgm/pandoc/releases/download/1.16.0.2/pandoc-1.16.0.2-windows.msi
+
 You'll also need to install LaTeX (linux - Debian / Ubuntu):
 ::
     sudo apt-get install texlive
