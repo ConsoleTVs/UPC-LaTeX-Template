@@ -5,7 +5,7 @@ You can use diferent maths operations with pandoc, here you might get the idea o
 
 For more information, check Maths_
 
-.. Maths: http://pandoc.org/README.html#math
+.. _Maths: http://pandoc.org/README.html#math
 
 Markdown, LaTeX, Emacs Org mode, ConTeXt
 ----------------------------------------
