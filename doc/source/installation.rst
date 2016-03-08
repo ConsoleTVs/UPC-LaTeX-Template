@@ -70,6 +70,6 @@ Updating
 --------
 
 To update the template, simply run the python script in the .pandoc folder like follows:
-**Note: ** Python 2.7 Required
+**Note:** Python 2.7 Required
 ::
   python update.py
