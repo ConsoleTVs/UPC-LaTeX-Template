@@ -65,3 +65,11 @@ The template file should then be available under the following location (example
     /home/erik/.pandoc/templates/default.latex
     
 If everything went well you should then have the template installed and ready to go, take a look at the getting started page to learn how to use it.
+
+Updating
+--------
+
+To update the template, simply run the python script in the .pandoc folder like follows:
+**Note: ** Python 2.7 Required
+::
+  python update.py
