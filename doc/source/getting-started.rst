@@ -94,7 +94,9 @@ To create a table of contents you'll just need to provide an extra meta data:
     numbersections: true
 
 You can optionaly choose if you would like to change the default title, by default it's: Continguts
+
 You can optionaly choose if you would like them to have a number.
+
 The toc-depth specifies the level of section to include in table of contents
 
     
