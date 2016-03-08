@@ -11,13 +11,13 @@ You'll need to have pandoc installed (linux - Debian / Ubuntu):
 
 To use the full features of pandoc, please install the version 1.16, not the 1.12 that comes with ubuntu
 
-**RECOMMENDED** Version 1.6: `Download 1.6`_
+- **RECOMMENDED** Version 1.6: `Download 1.6`_
 
-.. _`Download 1.6`: https://github.com/jgm/pandoc/releases/download/1.16.0.2/pandoc-1.16.0.2-1-amd64.deb
+  .. _`Download 1.6`: https://github.com/jgm/pandoc/releases/download/1.16.0.2/pandoc-1.16.0.2-1-amd64.deb
 
-**NOT RECOMMENDED** Version 1.12:
-::
-    sudo apt-get install pandoc
+- **NOT RECOMMENDED** Version 1.12:
+  ::
+      sudo apt-get install pandoc
 
 Download for Windows_
 
