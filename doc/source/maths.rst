@@ -3,9 +3,9 @@ Mathematics
 
 You can use diferent maths operations with pandoc, here you might get the idea of how they are done
 
-For more information, check this_
+For more information, check Maths_
 
-.. _this: http://pandoc.org/README.html#math
+.. Maths: http://pandoc.org/README.html#math
 
 Markdown, LaTeX, Emacs Org mode, ConTeXt
 ----------------------------------------
@@ -36,15 +36,11 @@ A quick example:
   
 Will be translated into 3PIr with the PI sign.
 
-:math:`3 \pi r`
-
 Another example:
 ::
   $\pi \cdot R^{2}$
   
 This will be translated into PI * R^2
-
-:math:`\pi * R^{2}`
 
 reStructuredText
 ----------------
@@ -53,7 +49,5 @@ The syntax it's diferent, you can use:
 ::
   :math:`A_\text{c} = (\pi/4) d^2`.
 
-This will create the following:
-
-:math:`A_\text{c} = (\pi/4) d^2`.
+This will create the correct maths text.
 
