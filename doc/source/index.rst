@@ -15,7 +15,7 @@ We use Pandoc to handle the conversion between markdown or restructuredText into
 Example
 -------
 
-An example of the template may be found here_
+An example documentation template may be found here_
 
 .. _here: https://www.dropbox.com/s/fkqgoz7hismpo0t/UPC.pdf?dl=1
    
