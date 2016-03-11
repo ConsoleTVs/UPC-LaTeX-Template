@@ -38,6 +38,17 @@ Another example:
   
 This will be translated into PI * R^2
 
+Better Usage
+------------
+
+The best way to use the formulas is the following:
+::
+  $$
+  (a + b) \cdot \pi + \int_0^5{2x}
+  $$
+  
+This will center the formula and at the same time make it in a new line, so it will have better space and will be better to look at.
+
 reStructuredText
 ----------------
 
