@@ -38,7 +38,7 @@ Downloading
 -----------
 To install our template you'll need to download the files first:
 
-Version: 1.4
+Version: **1.5**
 
 Download_
 
