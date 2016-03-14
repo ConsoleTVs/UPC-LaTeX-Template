@@ -32,7 +32,7 @@ What is a template?
 Pandoc make use of LaTeX templates to design your pdf, so in fact our template is a preset configuration to ensure your document meets the line between a fancy document and powerful one.
 
 
-.. Note: This site is NOT part of Polytechnic University of Catalonia, it's just a free time developed project made by students
+.. note:: This site is NOT part of Polytechnic University of Catalonia, it's just a free time developed project made by students
 
 .. toctree::
    :hidden:
