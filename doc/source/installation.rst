@@ -15,7 +15,7 @@ To use the full features of pandoc, please install the version 1.16, not the 1.1
 
   `Download 1.17`_
 
-  .. _`Download 1.17`: https://github.com/jgm/pandoc/releases/download/1.17.0.2/pandoc-1.17.0.2-1-amd64.deb
+  .. _`Download 1.17`: https://github.com/jgm/pandoc/releases/download/1.17.2/pandoc-1.17.2-1-amd64.deb
 
 - **NOT RECOMMENDED** Version 1.12:
   ::
@@ -23,7 +23,7 @@ To use the full features of pandoc, please install the version 1.16, not the 1.1
 
 Download for Windows_
 
-.. _Windows: https://github.com/jgm/pandoc/releases/download/1.16.0.2/pandoc-1.16.0.2-windows.msi
+.. _Windows: https://github.com/jgm/pandoc/releases/download/1.17.2/pandoc-1.17.2-windows.msi
 
 You'll also need to install LaTeX (linux - Debian / Ubuntu):
 ::
